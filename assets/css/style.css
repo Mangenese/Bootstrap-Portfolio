@@ -69,3 +69,16 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer
 }
+
+/* @media screen and (max-width: 980px) {
+    {
+        box-sizing: border-box;
+    }
+} */
+
+
+
+#bio {
+    float: inline-start;
+    font-size: 26px
+}
