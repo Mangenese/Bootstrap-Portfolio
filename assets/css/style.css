@@ -1,7 +1,15 @@
 /*Styling for the porfolio taken from our previous homework*/
 
 /*Portfolio*/
-
+html {
+    background-color: lightgray;
+}
+.container {
+    background-color: lightgray;
+}
+body {
+    background-color: lightgray;
+}
 .work {
     width: 274px;
     overflow: auto;
@@ -81,4 +89,17 @@ input[type=submit] {
 #bio {
     float: inline-start;
     font-size: 26px
+}
+
+a {
+    color:cyan;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.card-body {
+    background-color: gray;
 }
