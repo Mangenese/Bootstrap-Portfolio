@@ -41,28 +41,28 @@
               <div class="container">
                   <div class="row">
                       <div class="col-sm-12">
-                          <h1>Contact</h1>
+                          <h1>Contact Me</h1>
                       </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                                <form id="contact-form">
-                                        <ul>
-                                            <li>
-                                                <label for="name">Name</label>
-                                                <input type="text" name="name" id="name" placeholder="Blake Mangen" required="required">
-                                            </li>
-                                            <li>
-                                                <label for="email">Email</label>
-                                                <input type="text" name="email" id="email" placeholder="blakemangen20@gmail.com" required="required">
-                                            </li>
-                                            <li> 
-                                            <label for="message">Message</label>
-                                            <textarea id="message" name="message" required="required"></textarea>
-                                            </li>
-                                        </ul>
-                                        <input type="submit" name="submit">
-                                    </form>
+                          <form
+                          action="https://formspree.io/mbjalwrj"
+                          method="POST"
+                        >
+                          <label>
+                            Your email:
+                            <input type="text" name="_replyto" placeholder="Enter your email here">
+                          </label>
+                          <label>
+                            Your message:
+                            <textarea name="message" placeholder="Enter your email message here"></textarea>
+                          </label>
+                        
+                          <!-- your other form fields go here -->
+                        
+                          <button type="submit">Send</button>
+                        </form>
                         </div>
                     </div>
                 </div>
